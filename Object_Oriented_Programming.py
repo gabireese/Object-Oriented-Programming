@@ -16,8 +16,8 @@ class Car:
     mpg: int or str 
     exterior_color: str
     interior_color: str
-    accident: str 
-    car_price: int
+    accident: bool 
+    car_price: float
     ##Creating method for car class##    
     def __init__(self,manufacturer, model, year, mileage, engine, transmission, drivetrain, mpg, exterior_color, interior_color, accident, 
     car_price):
